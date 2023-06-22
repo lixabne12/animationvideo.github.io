@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+body{
+    background-color: black;
+}
+}
+.banner{
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #bg-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .banner img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  #female-character-img {
+    margin-left: 20%;
+    margin-top: 5%;
+    position: absolute;
+    bottom: 20%;
+    left: -100px;
+    opacity: 0;
+  }
+  #headline1-img {
+    margin-left: 3%;
+    position: absolute;
+    top: 1%;
+    left: -100px;
+    opacity: 0;
+  }
+  #headline2-img{
+    margin-left: 20%;
+    position: absolute;
+    bottom: 20%;
+    left: -100px;
+    opacity: 0;
+  }
+  #logo-img{
+    margin-right: 20%;
+    position: absolute;
+    top: none;
+    right: -100px;
+    opacity: 0;
+    width: 400px;
+    height: 400px;
+  }
+  #learn-more-btn{
+    margin-right: 40%;
+    position: absolute;
+    top: 70%;
+    right: -100px;
+    opacity: 0;
+    width: 500px;
+    height: 100px;
+    background-image: url(learnmore.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #replay-btn {
+    margin-right: 50%;
+    position: absolute;
+    top: 85%;
+    right: -100px;
+    opacity: 0;
+    width: 200px;
+    height: 100px;
+    background-image: url(replay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
